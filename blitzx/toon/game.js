@@ -59,7 +59,7 @@ var Module = {
 
 
 (function() {
-	var memoryInitializer = 'toon.html.mem';
+	var memoryInitializer = 'teapot.toon.html.mem';
 	if (typeof Module['locateFile'] === 'function') {
 		memoryInitializer = Module['locateFile'](memoryInitializer);
 	} else if (Module['memoryInitializerPrefixURL']) {

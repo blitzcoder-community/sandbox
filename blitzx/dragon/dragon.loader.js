@@ -76,6 +76,6 @@ var script = document.createElement('script');
 script.src = baseurl + ".js";
 document.body.appendChild(script);
 
-var help = document.createTextNode("Press ← → ↑ ↓ to move.");
+var help = document.createTextNode("Press WASD to move camera. [ and ] to rotate. Q/Z for zoom");
 helpDiv = document.getElementById("help");
 helpDiv.appendChild(help);
